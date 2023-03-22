@@ -1,4 +1,5 @@
 # Web-browser-new-homepage
+tip: click on the clock to expand, and click again to back to the normal
 A simple homepage i made for any chromiun based browsers using HTML, CSS, Javascript.
 
 All is editable
