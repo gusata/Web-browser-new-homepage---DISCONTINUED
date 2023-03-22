@@ -13,3 +13,11 @@ first, download the new tab folder into your computer, next go to your chrome (o
 
 
 next go to load without compression, and select the new tab folder.
+
+# next updates:
+
+Working on change wallpapers menu
+
+Music on background
+
+and editable settings about the buttons
