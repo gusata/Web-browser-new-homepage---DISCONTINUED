@@ -9,12 +9,22 @@ All is editable
 
 # step by step
 
-first, download the new tab folder into your computer, next go to your chrome (or any chromiun based browser) and toggle developer mode to on:
+First, download the new tab folder into your computer, next go to your chrome (or any chromiun based browser) and toggle developer mode to on:
 
 ![Alt text](https://cdn.discordapp.com/attachments/809868081102323722/1088100741337579621/Captura_de_tela_de_2023-03-22_11-02-44.png "a title")
 
 
-next go to load without compression, and select the new tab folder.
+Next go to load without compression, and select the new tab folder.
+
+# change icons
+
+To change the icons first go to [Fonts awesome web page](https://fontawesome.com/v4/icons/) choose one icon you want.
+
+Now go to `index.html` file and change `<i class="fa fa-play" id="btni"></i>` `fa fa-play` to the icon code you choose.
+
+# change links
+
+Now to change links, go to ``index.html`` and change ``<a href="">`` tag to the link you want 
 
 # next updates:
 
