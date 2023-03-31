@@ -1,3 +1,39 @@
+var audio1 = document.getElementById('myAudio1')
+var audio2 = document.getElementById('myAudio2')
+var audio3 = document.getElementById('myAudio3')
+audio1.pause();
+audio2.pause();
+audio3.pause();
+audio1.loop = true;
+audio2.loop = true;
+audio3.loop = true;
+
+const btnplay = document.querySelector('#butplay');
+const btnpause = document.querySelector('#butpause');
+const fow = document.querySelector('#next');
+
+fow.addEventListener('click', function(fow){
+    audio1.pause();
+    audio2.play()
+})
+
+
+btnplay.addEventListener('click', function(play){
+    audio1.play();
+    document.querySelector('.butpause')
+    .classList.toggle('A')
+    document.querySelector('.butplay')
+    .classList.toggle('A')
+})
+
+btnpause.addEventListener('click', function(pause){
+    audio1.pause();
+    document.querySelector('.butpause')
+    .classList.toggle('A')
+    document.querySelector('.butplay')
+    .classList.toggle('A')
+})
+
 const button = document.querySelector('#DigitalCLOCK');
 button.addEventListener('click', function(move){
     document.querySelector('.clock',)
@@ -19,6 +55,18 @@ button.addEventListener('click', function(move){
     document.querySelector('.clock',)
     .classList.toggle('shadow')})
 
+const burg = document.querySelector('#container')
+
+
+burg.addEventListener('click', function(burg){
+    document.querySelector('.container')
+    .classList.toggle('change')
+})
+
+burg.addEventListener('click', function(ap){
+    document.querySelector('.play')
+    .classList.toggle('ap')
+})
 
 
 
