@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>New Tab</title>
+    <title>Document</title>
     
   </head>
   
@@ -14,7 +14,19 @@
   <div class="darken"></div>
   <body id="body">
     
-    <audio autoplay="" loop="" src="https://www.youtube.com/watch?v=fiqcayGp6tY"></audio>
+    <audio id="myAudio1">
+      <source src="backAudio.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="myAudio2">
+      <source src="backaudio2.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="myAudio3">
+      <source src="backaudio3.mp3" type="audio/mpeg">
+    </audio>
+
+    
     
     <nav id="nav">
       
@@ -48,9 +60,29 @@
     </li>
     <script src="./javascript.js"></script>
   </nav>
-  
-
-</body>
+  <nav class="play">
+      <li>
+        <button class="butplay" id="butplay">
+        <i class="fa fa-play" id="btn"></i>
+      </button>
+      </li>
+      <li>
+        <button  class="butpause" id="butpause">
+        <i class="fa fa-pause" id="btn"></i>
+      </button>
+      </li>
+      <li>
+        <button  class="next" id="next">
+        <i class="fa fa-step-forward" id="btn"></i>
+      </button>
+      </li>
+    </nav>
+    <div class="container" id="container">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+   </body>
 <script src="script.js"></script>
 </html>
 
