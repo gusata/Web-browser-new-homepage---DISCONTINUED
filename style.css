@@ -77,7 +77,7 @@ nav.fade{
 }
 
 
-button {
+#card1{
   list-style-type: none;
   margin: auto;
   padding: 12.5%;
@@ -177,4 +177,118 @@ li {
 }
 .clock.shadow{
   box-shadow: 0px 0px 100000px 700px rgba(0, 0, 0, 0.678);
+}
+
+.play{
+  left: 4%;
+  bottom: 7%;
+  position: absolute;
+  height: 8%;
+  width:  5%;
+  transform: translateX(-700px);
+
+  background: rgba(233, 235, 232, 0.06);
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transition: transform 0.6s ease-out;
+
+}
+
+.play.ap{
+  transform: translateX(0);
+}
+
+
+.butplay{
+  height: 190%;
+  width: 28%;
+  border-color: #444444;
+
+
+  background: rgba(233, 235, 232, 0.06);
+  border-radius: 50%;
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transition: 6.5s linear;
+}
+
+.butpause{
+  display: none;
+  position: relative;
+  right: 198px;
+  height: 190%;
+  width: 28%;
+  border-color: #444444;
+
+
+  background: rgba(233, 235, 232, 0.06);
+  border-radius: 50%;
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transition:  6.5s linear;
+}
+
+.next{
+  position: absolute;
+  transform: translateX(75px) translateY(-46px);
+  height: 57px;
+  width: 57px;
+  border-color: #444444;
+
+
+  background: rgba(233, 235, 232, 0.06);
+  border-radius: 50%;
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.butpause.A{
+  display: block;
+}
+
+.butplay.A{
+  display: none;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position:absolute;
+  transform: translateY(110px);
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+  background: rgba(233, 235, 232, 0.06);
+  border-radius: 15px;
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.534);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: #c5c4c4;
+  margin: 6px 0;
+  transition: 0.4s;
+  transform: translateX(9.5px) translateY(4px);
+}
+
+.change .bar1 {
+  transform:translateX(10px) translateY(15px) rotate(-45deg);
+}
+
+
+.change .bar2 {opacity: 0;}
+
+
+.change .bar3 {
+  transform:translateX(10px) translateY(-7px) rotate(45deg);
 }
